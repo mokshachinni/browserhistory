@@ -1,0 +1,40 @@
+.search-item-container {
+  display: flex;
+}
+
+.history-item {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  margin-right: 5px;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+p {
+  margin: 10px;
+}
+
+.logos {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+}
+
+.delete-icon {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.button {
+  background: transparent;
+  border: 0px;
+}
